@@ -1,1 +1,80 @@
+
 /* your code here */
+.content
+{
+	background-color:black;
+	color:white;
+	font-size:45px;
+	
+}
+.top
+{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-inline:20px;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+.media-icons
+{
+	display:flex;
+}
+.logo
+{
+	text-decoration:none;
+	margin-left:30px;
+}
+.link-boxes
+{
+	display:flex;
+	font-size:18px;
+	justify-content:space-between;
+	margin-inline:20px;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+.link-head
+{
+	margin-bottom:17px;
+	font-size:20px;
+    transition: all 0.3s ease; 
+	position: relative; 
+}
+.link-head::after
+{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px; /* Adjust as needed */
+  left: 0;
+  background-color: white; /* Underline color */
+  transition: width 0.5s ease; /* Slow transition for the underline effect */
+}
+.link-head:hover::after 
+{
+	width: 100%; /* Full width on hover */
+}
+.link-items
+{
+	margin-top:10px;
+}
+.bottom-details
+{
+	background-color:gray;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.copyright
+{
+	margin-left:20px;
+}
+.policy
+{
+	margin-right:20px;
+}
